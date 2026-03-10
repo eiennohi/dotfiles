@@ -3,7 +3,7 @@ set -e
 
 echo "Applying dotfiles with stow..."
 
-cd "$HOME/.dotfiles"
+cd "$HOME/dotfiles"
 
 stow git
 stow hypr

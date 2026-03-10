@@ -4,7 +4,7 @@ set -e
 echo "Installing base dependencies..."
 sudo pacman -Sy --needed git base-devel stow
 
-DOTFILES_DIR="$HOME/.dotfiles"
+DOTFILES_DIR="$HOME/dotfiles"
 
 if [ ! -d "$DOTFILES_DIR" ]; then
   echo "Cloning dotfiles..."
