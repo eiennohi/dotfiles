@@ -1,0 +1,50 @@
+[include]
+  path = ~/.gitconfig.local
+
+[includeIf "gitdir:~/work/"]
+  path = ~/.gitconfig-work.local
+
+[core]
+  editor = nvim
+  autocrlf = input
+
+[init]
+  defaultBranch = master
+
+[diff]
+  colorMoved = default
+  tool = nvim
+
+[merge]
+  conflictStyle = zdiff3
+  tool = nvim
+
+[push]
+  autoSetupRemote = true
+
+[pull]
+  rebase = false
+
+[color]
+  ui = auto
+
+[alias]
+  lg = log --oneline --graph --decorate --all
+
+[rerere]
+  enabled = true
+  autoupdate = true
+
+[credential]
+  helper = store
+[difftool "nvim"]
+  cmd = nvim -d \"$LOCAL\" \"$REMOTE\"
+
+[difftool]
+  prompt = false
+
+[mergetool "nvim"]
+  cmd = nvim -d \"$LOCAL\" \"$MERGED\" \"$REMOTE\"
+
+[mergetool]
+  prompt = false

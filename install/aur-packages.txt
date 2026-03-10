@@ -1,0 +1,13 @@
+bibata-cursor-theme-bin
+brave-bin
+dms-shell-bin
+dms-shell-bin-debug
+downgrade
+dsearch-bin
+google-breakpad
+pulse-secure
+quickshell-git
+slack-desktop
+visual-studio-code-bin
+yay
+yay-debug

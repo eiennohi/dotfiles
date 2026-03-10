@@ -1,0 +1,12 @@
+private/
+.ssh/
+.gnupg/
+.aws/
+.kube/
+*.key
+*.pem
+*.gpg
+.ssh
+.env
+.gitconfig.local
+.gitconfig-work.local
