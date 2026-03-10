@@ -11,5 +11,4 @@ stow nvim
 stow kitty
 stow starship
 stow zsh
-stow scripts
 stow DankMaterialShell
