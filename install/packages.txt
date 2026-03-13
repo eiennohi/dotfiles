@@ -13,6 +13,8 @@ cliphist
 cmake
 dgop
 dkms
+docker
+docker-compose
 dolphin
 efibootmgr
 eza
@@ -73,6 +75,7 @@ qt6-shadertools
 qt6-wayland
 reflector
 ripgrep
+satty
 slurp
 starship
 stow
@@ -137,6 +140,12 @@ ttf-zed-mono-nerd
 udiskie
 unzip
 vim
+vlc
+vlc-plugin-ass
+vlc-plugin-ffmpeg
+vlc-plugin-srt
+vlc-plugins-all
+vlc-plugins-extra
 vulkan-headers
 wayland-protocols
 wireplumber
